@@ -142,3 +142,56 @@ header [src$="png"] {
 }
 
 /* end Styling header */
+main {
+    height: 150vh;
+}
+
+.prima_sessione {
+    height: 20%;
+    text-align: center;
+    padding: 30px;
+}
+
+.prima_sessione h3{
+    font-weight: normal;
+    color: #999;
+}
+
+
+.seconda_sessione {
+    height: 40%;
+    border-bottom: 1px solid #999;
+}
+
+.colonna {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-bottom: 60px;
+}
+.seconda_sessione img {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.seconda_sessione h3 {
+    color: #7fb802;
+    font-style: oblique;
+}
+
+.seconda_sessione p {
+    margin-top: 20px;
+    color: #999;
+}
+
+.seconda_sessione hr {
+    opacity: .3;
+    width: 32px;
+    border-top: 2px solid;
+    margin: 20px auto;
+}
+.terza_sessione {
+    height: 40%
+}
