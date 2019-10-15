@@ -9,4 +9,110 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.sub {
+    width: 80%;
+    margin: auto;
+}
+
 /* end styling general */
+
+/* styling header */
+
+
+header {
+    background-color: #0d325a;
+    height: 66vh;
+}
+
+.cta_button {
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #7fb802;
+}
+
+.cta_button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.title_left {
+    float: left;
+    width: 55%;
+    height: 80px;
+}
+
+.title_right {
+    float: right;
+    width: 40%;
+    height: 80px;
+    line-height: 50px;
+    text-align: right;
+}
+
+#header_top:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header_top {
+    height: 80px;
+    padding: 20px 10px;
+}
+
+
+.main_menu {
+    float: right;
+    line-height: 50px;
+}
+
+.menu_items {
+    list-style: none;
+}
+
+.menu_items li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.menu_items li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.menu_items li a:hover {
+    color: #f8b71c;
+}
+
+.title_right a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.cta_button.trasp {
+    background-color: transparent;
+    margin: 0 10px;
+    padding: 8px 20px;
+}
+
+.cta_button.trasp:hover {
+    cursor: pointer;
+}
+
+.cta_button.green {
+    border-color: #7fb802;
+}
