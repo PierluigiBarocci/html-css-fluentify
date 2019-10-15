@@ -96,7 +96,7 @@ header {
 
 .title_right a {
     text-decoration: none;
-    color: white;
+    color: rgba(255,255,255,.5);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -116,3 +116,5 @@ header {
 .cta_button.green {
     border-color: #7fb802;
 }
+
+/* header bottom */
