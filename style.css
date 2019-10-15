@@ -143,7 +143,13 @@ header [src$="png"] {
 
 /* end Styling header */
 main {
-    height: 150vh;
+    height: 160vh;
+}
+
+main:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .prima_sessione {
@@ -217,4 +223,37 @@ main {
 
 .text_third p {
     color: #999;
+}
+
+/* Styling footer */
+
+footer {
+    height: 20vh;
+}
+
+#footer_left {
+    float: left;
+    width: 40%;
+}
+
+#footer_right {
+    float: right;
+    width: 60%;
+    padding: 30px;
+    text-align: right;
+}
+
+.ult_text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+#footer_right div {
+    display: inline-block;
+}
+
+#footer_right select {
+    margin: 0 20px;
 }
